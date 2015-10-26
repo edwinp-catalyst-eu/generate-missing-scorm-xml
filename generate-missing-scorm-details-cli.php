@@ -34,7 +34,7 @@ foreach ($scormcontent->children() as $scormdetails) {
 
     if (!file_exists($scormfolder . $filename)) {
 
-        $notfound[] = $details;
+        $notfound[] = $filename;
 
         $writer->startElement('row');
 
